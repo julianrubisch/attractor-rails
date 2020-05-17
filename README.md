@@ -27,7 +27,6 @@
 
 <!-- PROJECT SHIELDS -->
 ![Build Status][build-status]
-![Ruby Tests Action Status][ruby-tests-action-shield]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
