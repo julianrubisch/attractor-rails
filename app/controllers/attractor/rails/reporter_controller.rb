@@ -23,7 +23,8 @@ module Attractor::Rails
 
     def suggestions
       threshold = params[:t] || 95
-      render json: @reporter.suggestions(threshold).map(&:to_h)
+      type = params[:type] || "rb"
+      render json: @reporter.suggestions(quantile: threshold, type: type).map(&:to_h)
     end
 
     private
