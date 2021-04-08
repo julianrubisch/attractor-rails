@@ -77,7 +77,9 @@ Rails.application.routes.draw do
 end
 ```
 
-And that's it! Browse to http://localhost:3000/attractor and enjoy your code metrics!
+And that's it! Browse to http://localhost:3000/attractor/ and enjoy your code metrics!
+
+**NOTE: due to the forwarding of requests to the attractor gem in the background, the `/` at the end is important! Don't leave it out.**
 
 ## Configuration
 
