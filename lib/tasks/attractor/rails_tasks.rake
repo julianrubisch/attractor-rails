@@ -1,4 +1,6 @@
-# desc "Explaining what the task does"
-# task :attractor_rails do
-#   # Task goes here
-# end
+namespace :attractor do
+  desc "Initialize attractor"
+  task install: :environment do
+    system "attractor init"
+  end
+end
