@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    attractor-rails (0.1.2)
+    attractor-rails (0.2.0)
       attractor (>= 2.3.0)
       attractor-javascript (~> 0.1)
       attractor-ruby (~> 0.1)
@@ -130,13 +130,11 @@ GEM
     marcel (1.0.1)
     method_source (1.0.0)
     mini_mime (1.0.3)
-    mini_portile2 (2.5.0)
     minitest (5.14.4)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
     nio4r (2.5.7)
-    nokogiri (1.11.3)
-      mini_portile2 (~> 2.5.0)
+    nokogiri (1.11.3-x86_64-darwin)
       racc (~> 1.4)
     parallel (1.19.1)
     parser (2.7.1.2)
